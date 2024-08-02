@@ -45,7 +45,24 @@ iframe#tela {
     left: 23px;
     width: 265px;
     height: 470px;
-    
+}
 
+img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.579)
     
+}
+
+
+img:hover {
+    border: 1px solid white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.623);
+    transform: translate( -2px, -2px);
+    transition: .2s border .1s;
+}
+
+section#redesocial {
+    text-align: right;
 }
